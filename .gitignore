@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Environment
+.env
+
+# Data & artifacts (large files)
+data/
+artifacts/
+experiments/
+mlruns/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# SQLite databases
+*.db
+
+# Scratch & Caches
+scratch/
+.pytest_cache/
